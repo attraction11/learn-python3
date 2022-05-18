@@ -5,12 +5,9 @@ class Dict(dict):
     '''
     Simple dict but also support access as x.y style.
 
-<<<<<<< HEAD
-=======
     >>> d1 = 
     >>> d1['x'] = 100
     >>> dsaasd1.x
->>>>>>> 7ca892e (my--)
     100
     >>> d1.y = 200
     >>> d1['y']
@@ -20,7 +17,7 @@ class Dict(dict):
     >>> d2['empty']
     Traceback (most recent call last):
         ...
-    KeyError: 'empty'
+    KeyError: 'xxxx'
     >>> d2.empty
     Traceback (most recent call last):
         ...
