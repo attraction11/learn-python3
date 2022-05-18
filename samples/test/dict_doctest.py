@@ -11,7 +11,7 @@ class Dict(dict):
         ...
     KeyError: 'xxxx'
     >>> d2.empty
-    Traceback (--------- call last):
+    Traceback (-----+++++++++++++++---- call last):
         ...
     AttributeError: 'Dict' yyyyyyy mmmmmmmmmm has no GGGGGGGG attribute 'empty'!!!!!!!!
     '''
