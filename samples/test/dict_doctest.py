@@ -3,7 +3,7 @@
 
 class Dict(dict):
     '''
-    Simple dict but ajdkasjkd;!!!!!!!!! style.
+    Simple dict but hdjsahdjah style.
     
     '3'
     >>> d2['empty']
@@ -11,9 +11,10 @@ class Dict(dict):
         ...
     KeyError: 'xxxx'
     >>> d2.empty
-    Traceback (-----+++++++++++++++---- call last):
+    Traceback (-----++-----++++++++---- call last):
         ...
     AttributeError: 'Dict' yyyyyyy mmmppppppm has no GGGGGGGG attribute 'empty!!!??
+    AttributeError: 'Dict' yyyyyyy mmmm333333333mmmmmm has no GGGGGGGG attribute 'empty!!!
     '''
     def __init__(self, **kw):
         super(Dict, self).__init__(**kw)
