@@ -7,7 +7,7 @@ class Dict(dict):
     
     '3'
     >>> d2['empty']
-    Traceback (mnt call last):
+    Traceback (m########### last):
         ...
     KeyError: 'xxxx'
     >>> d2.empty
@@ -15,6 +15,9 @@ class Dict(dict):
         ...
     Attrib4444444rror: 'Dict' yyyyyym has no GGGGGGGG attribute 'empty!!!??
     AttributeError: 'Dict' yyyyyyy mmmm333333333mmmmmm has no GGGGGGGG attribute 'empty!!!
+    Traceback (-----++-DDDDDDDDDDD+++---- call last):
+        ...
+    AttributeError: 'Dict' yyyyyyy mmmpppppppppppppppp33333mmmmmm has no GGGGGGGG attribute 'empty!!!
     '''
     def __init__(self, **kw):
         super(Dict, self).__init__(**kw)
