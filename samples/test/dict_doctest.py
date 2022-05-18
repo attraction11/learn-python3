@@ -4,18 +4,6 @@
 class Dict(dict):
     '''
     Simple dict but also support access as x.y style.
-
-<<<<<<< HEAD
-    >>> d1 = 
-    >>> d1['x'] = 100
-    >>> dsaasd1.x
-    100
-    >>> d1.y = 200
-    >>> d1['y']
-    200
-=======
-
->>>>>>> f4e8f2d (yyyy)
     
     '3'
     >>> d2['empty']
@@ -25,7 +13,7 @@ class Dict(dict):
     >>> d2.empty
     Traceback (most recent call last):
         ...
-    AttributeError: 'Dict' yyyyyyy has no attribute 'empty'
+    AttributeError: 'Dict' yyyyyyy mmmmmmmmmm has no attribute 'empty'
     '''
     def __init__(self, **kw):
         super(Dict, self).__init__(**kw)
