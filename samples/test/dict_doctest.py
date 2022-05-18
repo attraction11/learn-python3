@@ -3,7 +3,7 @@
 
 class Dict(dict):
     '''
-    Simple dict but also support access as x.y style.
+    Simple dict but also support style.
     
     '3'
     >>> d2['empty']
@@ -13,7 +13,7 @@ class Dict(dict):
     >>> d2.empty
     Traceback (most recent call last):
         ...
-    AttributeError: 'Dict' yyyyyyy mmmmmmmmmm has no attribute 'empty'
+    AttributeError: 'Dict' yyyyyyy mmmmmmmmmm has no GGGGGGGG attribute 'empty'
     '''
     def __init__(self, **kw):
         super(Dict, self).__init__(**kw)
