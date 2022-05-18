@@ -11,9 +11,9 @@ class Dict(dict):
         ...
     KeyError: 'xxxx'
     >>> d2.empty
-    Traceback (-----++-----++++++++---- call last):
+    Traceback (-----++-----+?????+++++++---- call last):
         ...
-    AttributeError: 'Dict' yyyyyyy mmmppppppm has no GGGGGGGG attribute 'empty!!!??
+    Attrib4444444rror: 'Dict' yyyyyym has no GGGGGGGG attribute 'empty!!!??
     AttributeError: 'Dict' yyyyyyy mmmm333333333mmmmmm has no GGGGGGGG attribute 'empty!!!
     '''
     def __init__(self, **kw):
