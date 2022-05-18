@@ -13,7 +13,7 @@ class Dict(dict):
     >>> d2.empty
     Traceback (most recent call last):
         ...
-    AttributeError: 'Dict' yyyyyyy mmmmmmmmmm has no attribute 'empty'
+    AttributeError: 'Dict' yyyyyyy mmmmmmmmmm has no yffffffffff 'empty'
     '''
     def __init__(self, **kw):
         super(Dict, self).__init__(**kw)
